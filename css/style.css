@@ -1,0 +1,394 @@
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+
+    font-family: '';
+    src: url(../fonts/nevis.ttf);
+}
+
+.top-header {
+    height: 17px;
+    width: 100%;
+    background-color: #090909;
+}
+
+.header {
+    width: 100%;
+    height: 156px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+
+}
+
+.header-wrapper {
+
+    width: 80%;
+    height: 136px;
+    margin: 0 auto;
+    border-bottom: 1px solid #c0c0c0;
+
+}
+
+.logo {
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+}
+
+.info {
+    margin-top: 16px;
+    float: right;
+    font-family: arial;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.menubar {
+    width: inherit92px;
+    width: 656px;
+    float: right;
+    margin: 0 auto;
+}
+
+.menubar ul {
+    float: right;
+
+}
+
+.menubar ul li {
+    float: left;
+    list-style: none;
+    margin-top: 36px;
+    padding-right: 12px;
+}
+
+.menubar ul li:last-child {
+    padding-right: 0px;
+}
+
+.menubar ul li a {
+    text-transform: uppercase;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FCAA27;
+}
+
+.menubar ul li a:hover {
+    color: #080808;
+}
+
+.banar {
+    background-color: #f4f4f4;
+    overflow: hidden;
+    width: 100%;
+    height: 378px;
+}
+
+.banar-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 378px;
+    background-image: url(../img/slide_background.png);
+}
+
+.left-side {
+    width: 512px;
+    height: 384px;
+    position: relative;
+    float: left;
+}
+
+.left-side-wrapper {
+    width: 466px;
+    height: 314px;
+    margin: 0 auto;
+}
+
+.design {
+    font-size: 86px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 10px;
+    /* font-family: arial; */
+    /* padding-top: 38px; */
+    font-size: 25px;
+    font-family: nevis;
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-left: 85px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.port-folio {
+    position: absolute;
+    background-color: #;
+    width: 446px;
+    height: 46px;
+    margin: 0 auto;
+    background-color: #090909;
+}
+
+.text {
+    padding-left: 10px;
+    height: 22px;
+    color: #717171;
+    width: 202px;
+    padding-top: 16px;
+    float: left;
+}
+
+.view-portfolio {
+    padding-top: 13px;
+    float: right;
+    color: #f17501;
+}
+
+.view-portfolio a {
+    padding-right: 12px;
+    text-decoration: none;
+    color: #f17501;
+    right: 0px;
+    font-family: arial;
+}
+
+.view-portfolio i {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.right-side {
+
+
+    position: relative;
+    width: 441px;
+    height: 384px;
+    float: right;
+    /* overflow: hidden; */
+}
+
+.down-img {
+    margin: 4px;
+    box-shadow: 3px 3px 4px 5px black;
+    margin-bottom: 11px;
+    margin-bottom: 83%;
+    bottom: 12%;
+    position: absolute;
+    top: 41%;
+    box-shadow: 3px -2px -4px -6px black;
+    padding-bottom: 67%;
+    margin: -80px;
+}
+
+.front-img {
+    box-shadow: 0px 3px black;
+    margin-bottom: -13%;
+    box-shadow: black;
+    position: absolute;
+    right: 10.5%;
+    bottom: 59.5px;
+    padding-left: 7%;
+    margin-left: -1%;
+    padding-left: 13%;
+    margin: -55px;
+}
+
+#content {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.content-wrapper {
+    border-top: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #c0c0c0;
+    width: 80%;
+    margin: 0 auto;
+    height: 280px;
+    border-top: 1px solid #c0c0c0;
+}
+
+.common {
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.headline {
+    font-size: 44px;
+    margin-bottom: 10px solid black;
+    margin-top: -24px;
+}
+
+.about-us-head {
+    color: #090909;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.about-us-text {
+    font-family: arial;
+}
+
+.rafi {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.portfolio {
+    background-color: #f4f4f4;
+    width: 100%;
+    overflow: hidden;
+    height: 230px;
+}
+
+.portfolio-wrapper {
+    border-bottom: 1px solid #f4f4f4;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-text {
+    font-size: 19px;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 77px;
+}
+
+.image {
+    padding-left: 34px;
+    float: left;
+}
+
+.image:last-child {
+    right: 0;
+}
+
+.blog {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.blog-wrapper {
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px sloid;
+    width: 80%;
+    margin: 0 auto;
+    height: 168px;
+}
+
+.blog-text {
+    width: 73%;
+    float: left;
+}
+
+.blog-title {
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 17px;
+    /* font-family: arial; */
+    font-weight: bold;
+}
+
+.polash {
+    margin-top: 18px;
+    font-family: sans-serif;
+}
+
+.update {
+    text-transform: uppercase;
+}
+
+.social-icon {
+    float: right;
+}
+
+.heading {
+    padding-left: 34px;
+    margin-top: 28px;
+}
+
+.connect {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon {
+    margin-top: 24px;
+}
+
+.image {}
+
+.footer {
+    background-color: #e2e2e2;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-menubar {
+    float: left;
+    width: 70%;
+}
+
+.footer-menubar ul {
+    list-style: none;
+}
+
+.footer-menubar ul li {
+    border-left: 1px solid;
+    padding-left: 10px;
+    float: left;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-menubar ul li:last-child {
+    border-right: none;
+}
+
+.footer-menubar ul li:first-child {
+    border-left: none;
+}
+
+.footer-menubar ul li a {
+    color: #acacac;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer-menubar ul li a:hover {}
+
+.footer-logo {
+    right: 0px;
+    width: 0%;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.copright {
+    color: #9b9b9b;
+    font-family: sans-serif;
+    margin-top: 52px;
+    padding-left: 48px;
+}
